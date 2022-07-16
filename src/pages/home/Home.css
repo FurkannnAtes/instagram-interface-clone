@@ -1,0 +1,22 @@
+.home-container {
+    margin-top: 64px;
+    max-width: 975px;
+    overflow-x: hidden;
+}
+
+.home-page {
+    padding: 10px 22px 10px 30px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 975px) {
+
+    .home-page-right {
+        display: none;
+    }
+
+    .home-page-left {
+        margin: 0 auto;
+    }
+}

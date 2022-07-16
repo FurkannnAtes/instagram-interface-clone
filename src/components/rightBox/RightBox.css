@@ -1,0 +1,65 @@
+.right-box {
+    padding: 10px;
+}
+
+.account {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.account-titles {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 600;
+    font-size: 14px;
+    justify-content: center;
+
+}
+
+.account-titles:hover {
+    color: #ccc;
+}
+
+.account-titles a {
+    text-decoration: none;
+    color: black;
+}
+
+.friends-title {
+    color: #ccc;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.friend-list {
+    padding: 0;
+}
+
+.friend-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.friend-item-left,
+.friend-item-right {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.friend-user-name {
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+    margin-left: 10px;
+}
+
+.friend-user-name a {
+    text-decoration: none;
+    color: black;
+}
